@@ -1,0 +1,84 @@
+.text-headline {
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.text-semibol {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.text-normal {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.text-details-heading {
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #1976d2;
+    /* This is MUI's default primary color. Adjust as needed */
+    text-transform: uppercase;
+    border-bottom: 2px solid #1976d2;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+
+
+/* Custom breakpoints for responsive design */
+@media (max-width: 600px) {
+    .text-headline {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .text-semibol {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .text-normal {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 960px) {
+    .text-headline {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .text-semibold {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .text-normal {
+        font-size: 13px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 960px) {
+    .text-details-heading {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .text-details-heading {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
